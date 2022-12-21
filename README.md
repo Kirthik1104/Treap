@@ -23,4 +23,5 @@ There cannot be any redundant nodes.
 rotations to maintain Max-Heap property during insertion and deletion.
 
 <h4>Rotation</h4>
+
 Like other self-balancing Binary Search Trees, Treap uses rotations to maintain Max-Heap property during insertion and deletion.
