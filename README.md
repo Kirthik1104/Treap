@@ -11,7 +11,7 @@ Key follows BST ordering (left is smaller and right is bigger). Priority randoml
 
 
 <h2>Algorithm:</h2>
-<h4>BST</h4> divides all its sub-trees into two segments; the left sub-tree and the right sub-tree. Every node’s value is strictly higher than 
+<h4>BST</h4>Divides all its sub-trees into two segments; the left sub-tree and the right sub-tree. Every node’s value is strictly higher than 
 the value of its left child and strictly lower than the value of its right child. The following characteristics of a binary search tree, 
 a node-based binary tree data structure, are present:
 • Only nodes with keys lower than the node's key are found in the left subtree of a node.
@@ -19,7 +19,7 @@ a node-based binary tree data structure, are present:
 • Additionally, the left and right subtrees must also be binary search trees.
 There cannot be any redundant nodes.
 
-<h4>Heap</h4> is a Complete Binary Tree which means that tree must be filled from left to right. Treap uses 
+<h4>Heap</h4>Is a Complete Binary Tree which means that tree must be filled from left to right. Treap uses 
 rotations to maintain Max-Heap property during insertion and deletion.
 
 <h4>Rotation</h4>
