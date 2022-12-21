@@ -23,11 +23,4 @@ There cannot be any redundant nodes.
 rotations to maintain Max-Heap property during insertion and deletion.
 
 <h4>Rotation</h4>
-The tree's S1, S2, and S3 subtrees are rooted with y (left side) or x (Right side)
-  y                  x
- / \ Right Rotation / \
- x S3 – – – – – >   S1 y 
- / \ < - - - - -     / \
- S1 S2 Left Rotation S2 S3
-In both aforementioned trees, keys are arranged in the following order: keys(S1) key(x) keys(S2) 
-key(y) keys (S3). Therefore, no BST property has been broken
+Like other self-balancing Binary Search Trees, Treap uses rotations to maintain Max-Heap property during insertion and deletion.
